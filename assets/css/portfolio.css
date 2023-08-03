@@ -1,0 +1,166 @@
+body
+{
+    margin: 15%;
+    background-color: rgb(1, 1, 27);
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+}
+section
+{
+    margin: 10%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+header div span
+{
+    color: darkslategray;
+}
+header ul li
+{
+    display: inline;
+    list-style-type: none;
+}
+header ul li a
+{
+    text-decoration: none;
+    margin: 5px;
+}
+header div img
+{
+    margin: 5px;
+    border-radius: 50px;
+}
+#conteneur1
+{
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+}
+#conteneur2
+{
+    display: flex;
+    background-color: rgb(32, 30, 32);
+    box-shadow:10px 10px 10px rgb(92, 85, 94);
+}
+#conteneur2 article
+{
+    width: 100%;
+    margin: 5%;
+}
+#conteneur2 article div
+{
+    margin: 5%;
+    padding: 10px;
+    background-color: rgb(52, 56, 65);
+    box-shadow: 7px 7px 7px rgb(62, 66, 77);
+}
+#conteneur2 h2
+{
+    font-size: 25px;
+    color: rgb(0, 255, 191);
+}
+#conteneur2 article div p
+{
+    font-size: 15px;
+}
+#conteneur2 article div a
+{ 
+    text-decoration: none;
+}
+.text-intro
+{
+    font-size: 15px;
+}
+.d-img
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.d-img img
+{
+    border-radius: 50px;
+}
+#conteneur3
+{
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    background-color: rgb(32, 30, 32);
+    box-shadow: 10px 10px 10px rgb(92, 85, 94);
+    padding: 50px;
+}
+#conteneur3 article img
+{
+    border-radius: 10px;
+    box-shadow: 7px 7px 7px rgb(62, 66, 77);
+}
+.cont3-cs1
+{
+    background-image: url("../image/imgDevelop2.jpg");
+    width: 350px;
+    height: 330px;
+    margin-bottom: 30px;
+}
+.cont3-cs2
+{
+    background-image: url("../image/imgDevelop3.jpg");
+    width: 350px;
+    height: 330px;
+    margin-top: 30px;
+}
+#conteneur4
+{
+    width: 70%;
+    margin: auto;
+}
+#conteneur4 p
+{
+    text-align: center;
+}
+.sec-lorem
+{
+    background-color: rgb(32, 30, 32);
+    box-shadow: 7px 7px 7px rgb(62, 66, 77);
+    padding: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.cont-img 
+{
+    display: flex;
+justify-content: space-between;
+width: 100%;
+}
+#conteneur5
+{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    background-color: rgb(32, 30, 32);
+    box-shadow: 10px 10px 10px rgb(92, 85, 94);
+}
+#conteneur5 article
+{
+    margin: 4px;
+    text-align: center;
+}
+.footer-cont1
+{
+    display: flex;
+}
+.footer-cont1 p
+{
+    margin: 4px;
+}#conteneur5 article ul li
+{
+    list-style-type: none;
+}
+#conteneur5 article ul li a
+{
+    text-decoration: none;
+    margin: 5px;
+}
